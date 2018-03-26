@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/international"
+        android:icon="@drawable/world"
+        android:orderInCategory="100"
+        android:title="@string/international" />
+
+    <item
+        android:id="@+id/national"
+        android:icon="@drawable/pressindia"
+        android:orderInCategory="100"
+        android:title="@string/national" />
+
+    <!--  <item
+          android:id="@+id/search"
+          android:icon="@drawable/search"
+          android:title="@string/search" />-->
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/me"
+        android:title="@string/profile"
+        android:orderInCategory="100" />
+
+</menu>

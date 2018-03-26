@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Ppl</string>
+    <string-array name="navigation_drawer_items_array">
+        <item>Connect</item>
+        <item>Fixtures</item>
+        <item>Table</item>
+    </string-array>
+    <string name="international">World</string>
+    <string name="national">India</string>
+    <string name="search">Search</string>
+    <string name="profile">Me</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home_screen">Notification</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="gen">
+        <item>Choose Gender</item>
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+    <string-array name="edu_details">
+        <item>Choose Educational Details</item>
+        <item>Government Service</item>
+        <item>Student</item>
+        <item>Serviceman</item>
+        <item>Teacher/Professor</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="international1">After drying out from near-record rainfall that
+        swamped Paris last month, the French capital awoke this morning to a white blanket
+        of snowfall thick enough to shut down the famed Eiffel Tower.
+        Around 5 inches of snow has fallen there in the past 24 hours, according to
+        French official weather service Meteo France.</string>
+    <string name="international2">South Korea is gearing up to host the 2018 Pyeongchang
+        Winter Olympics starting with Friday’s opening ceremony for the 2,925
+        athletes from 92 countries, the largest ever in winter games history. Among them
+        will be 22 athletes from communist neighbor North Korea, a team officially welcomed
+        to participate at the last minute by the International Olympic Committee (IOC).</string>
+
+    <string name="national1">“Unfounded allegations are being made regarding the
+        2016 Inter-Governmental Agreement (IGA) to procure 36 Rafale aircraft in fly-away
+        condition from France. This would normally not have merited a response but
+        for the serious damage being caused by the misleading statements, sought to be
+        repeatedly perpetrated on a serious matter of national security,” the Defence Ministry said in a statement.</string>
+    <string name="national2">After days of protest against what they termed the neglect of Andhra Pradesh
+        in the Union Budget, the Telugu Desam Party (TDP) spoke out in the Lok Sabha accusing the BJP-led
+        NDA government of injustice towards the newly formed State and only paying attention to immediate
+        electoral gains rather than promises made to it.</string>
+    <string name="test">China export growth accelerated in January amid mounting trade tension
+        with Washington while imports surged as factories stocked up ahead of the Lunar New Year holiday.</string>
+    <string name="title_activity_maps__locate_me">Map</string>
+</resources>

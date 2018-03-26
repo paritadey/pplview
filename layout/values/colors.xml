@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#232221</color>
+    <color name="colorPrimaryDark">#0F0E0E</color>
+    <color name="colorAccent">#050505</color>
+    <color name="bgBottomNavigation">#ffffff</color>
+    <color name="textColorPrimary">#000000</color>
+
+    <color name="black">#000000</color>
+    <color name="gray">#C8C6C6</color>
+    <color name="salmon">#F96C6C</color>
+    <color name="textcolor_red">#ffffff</color>
+    <color name="colorDivide">#000000</color>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.parita.pplview">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pplview"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ppllogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeScreen"
+            android:label="Home Screen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".About"
+            android:label="About Us"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Account_info"
+            android:label="My Account"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".International"
+            android:label="World News"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".National"
+            android:label="Country News"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Profile"
+            android:label="My Reviews"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Registration"
+            android:label="Create Account"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Annonymous"
+            android:label="Anonymous User"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ForgotPassword"
+            android:label="Forgot Password"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AnonymousLogin"
+            android:label="Anonymous Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AnonymousAccountinfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Settings"
+            android:label="Settings and Privacy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditPassword"
+            android:label="Edit Password"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditProfile"
+            android:label="Edit Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailAboutPost"
+            android:label="Post History"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ShowAllComments"
+            android:label="Comments"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UserDetails"
+            android:label="My Bio"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityLog"
+            android:label="My Timeline"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bookmark"
+            android:label="My Bookmark"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MyPostHistory"
+            android:label="Post History"/>
+        <activity android:name=".AnonymousUserDetails"
+            android:label="My Bio"/>
+        <activity android:name=".AnonymousActivityLog"
+            android:label="My Timeline"/>
+        <activity android:name=".AnonymousPost"
+            android:label="Post History"/>
+        <activity android:name=".AnonymousBookmark"
+            android:label="Bookmark"/>
+        <activity android:name=".AnonymousEditProfile"
+            android:label="Edit Profile"/>
+        <activity android:name=".AnonymousSetting"
+            android:label="Settings"/>
+        <activity android:name=".AnonymousEditPassword"
+            android:label="Edit Password"/>
+        <activity android:name=".Analytics"
+            android:label="Analytic Details"></activity>
+    </application>
+
+</manifest>
