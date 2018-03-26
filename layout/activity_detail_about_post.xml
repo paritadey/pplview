@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context="com.example.parita.pplview.DetailAboutPost">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout1">
+
+    <TextView
+        android:id="@+id/sharepost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Heading of the Post"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="27dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/time"
+        android:id="@+id/more"
+        android:layout_marginTop="27dp"
+        android:paddingLeft="20dp"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        android:text="Read Full Story..."/>
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/more"
+        android:text="Description of the Post"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        android:layout_marginTop="0dp"/>
+    <TextView
+        android:id="@+id/tvsource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sharepost"
+        android:text="Source of the Post"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:textColor="#60010E"
+        android:textSize="14dp"
+        android:layout_marginTop="27dp"/>
+    <TextView
+        android:id="@+id/source"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvsource"
+        android:text="Source"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        android:layout_marginTop="7dp"/>
+    <TextView
+        android:id="@+id/tvtime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/source"
+        android:text="Time"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:textColor="#60010E"
+        android:textSize="14dp"
+        android:layout_marginTop="27dp"/>
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvtime"
+        android:text="Time of the Post"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        android:layout_marginTop="7dp"/>
+
+    <TextView
+        android:id="@+id/anoname"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" />
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/layout4">
+        <TextView
+            android:id="@+id/tvauthorname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Author "
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="20dp"
+            android:textColor="#60010E"
+            android:visibility="invisible"
+            android:textSize="14dp"
+            android:layout_marginTop="27dp"/>
+        <TextView
+            android:id="@+id/authorname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvauthorname"
+            android:text="Author of the Post"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="20dp"
+            android:textColor="#000000"
+            android:visibility="invisible"
+            android:textSize="14dp"
+            android:layout_marginTop="7dp"/>
+        <TextView
+            android:id="@+id/tvauthoremail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/authorname"
+            android:text="Author's Email"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="20dp"
+            android:textColor="#60010E"
+            android:visibility="invisible"
+            android:textSize="14dp"
+            android:layout_marginTop="27dp"/>
+        <TextView
+            android:id="@+id/authoremail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvauthoremail"
+            android:text="Author's Email"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="20dp"
+            android:visibility="invisible"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            android:layout_marginTop="7dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout1"
+        android:layout_marginTop="20dp"
+        android:id="@+id/layout2">
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:id="@+id/like"
+            android:text="Support"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/commentpostbutton"/>
+
+        <Button
+            android:id="@+id/dislike"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/commentpostbutton"
+            android:text="Against"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/comment"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/comment" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout3"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/layout2">
+
+        <EditText
+            android:id="@+id/commentpost"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/comment_text_box"
+            android:hint="Comment"
+            android:maxLength="100"
+            android:textSize="14dp"
+            android:paddingLeft="15dp"
+            android:singleLine="false"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+
+        <Button
+            android:id="@+id/postcomment"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/commentpostbutton"
+            android:text="Post"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_below="@id/commentpost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout5"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/layout3">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:text="Show Analytic"
+            android:id="@+id/analytics"
+            android:textSize="14dp"
+            android:textAllCaps="false"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/etUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/timeofpost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="18/02/2018 12:47 AM"
+        android:visibility="invisible" />
+</RelativeLayout>
+</ScrollView>

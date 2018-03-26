@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.parita.pplview.AnonymousAccountinfo">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        app:srcCompat="@drawable/anonymous" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Profile View "
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/deviceid"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/imageView2"
+        android:layout_marginTop="20dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/etUsername"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/mytimeline"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="84dp"
+                android:layout_marginStart="84dp"
+                android:layout_marginTop="38dp"
+                android:background="@drawable/timeline" />
+
+            <TextView
+                android:id="@+id/tvtimeline"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignLeft="@+id/mytimeline"
+                android:layout_alignStart="@+id/mytimeline"
+                android:layout_below="@+id/mytimeline"
+                android:layout_marginTop="15dp"
+                android:text="My Timeline"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/mydetails"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignBaseline="@+id/mytimeline"
+                android:layout_alignBottom="@+id/mytimeline"
+                android:layout_marginLeft="69dp"
+                android:layout_marginStart="69dp"
+                android:layout_toEndOf="@+id/tvtimeline"
+                android:layout_toRightOf="@+id/tvtimeline"
+                android:background="@drawable/account_me" />
+
+            <TextView
+                android:id="@+id/tvdetails"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignBaseline="@+id/tvtimeline"
+                android:layout_alignBottom="@+id/tvtimeline"
+                android:layout_alignEnd="@+id/mydetails"
+                android:layout_alignRight="@+id/mydetails"
+                android:text="My Details"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/mybookmark"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/tvtimeline"
+                android:layout_alignStart="@+id/tvtimeline"
+                android:layout_below="@+id/tvtimeline"
+                android:layout_marginTop="26dp"
+                android:background="@drawable/profilebookmark" />
+
+            <TextView
+                android:id="@+id/tvbookmark"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignLeft="@+id/mybookmark"
+                android:layout_alignStart="@+id/mybookmark"
+                android:layout_below="@+id/mybookmark"
+                android:layout_marginTop="12dp"
+                android:text="My Bookmark"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/mypost"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_above="@+id/tvbookmark"
+                android:layout_alignEnd="@+id/tvdetails"
+                android:layout_alignRight="@+id/tvdetails"
+                android:background="@drawable/postdetails" />
+
+            <TextView
+                android:id="@+id/tvpost"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignBaseline="@+id/tvbookmark"
+                android:layout_alignBottom="@+id/tvbookmark"
+                android:layout_alignLeft="@+id/mypost"
+                android:layout_alignStart="@+id/mypost"
+                android:text="My Posts"
+                android:textColor="#000000" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/anoname"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp" />
+    </RelativeLayout>
+</RelativeLayout>

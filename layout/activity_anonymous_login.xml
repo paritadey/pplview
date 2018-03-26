@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:id="@+id/mrelative"
+    tools:context="com.example.parita.pplview.AnonymousLogin">
+    <TextView
+        android:id="@+id/textViewdeviceid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Device ID" />
+
+    <TextView
+        android:id="@+id/deviceid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textViewdeviceid"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@+id/textViewdeviceid"
+        android:layout_toRightOf="@+id/textViewdeviceid"/>
+
+    <ImageView
+        android:id="@+id/anonymous_logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/deviceid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="112dp"
+        app:srcCompat="@drawable/anonymous" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/anonymous_logo"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/rounded_edit_text"
+        android:drawablePadding="5dp"
+        android:hint="Enter Password"
+        android:maxLength="50"
+        android:paddingLeft="20dp"
+        android:password="true"
+        android:singleLine="true"
+        android:textColor="#010435"
+        android:textColorHint="#010435" />
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_button"
+        android:gravity="center_horizontal"
+        android:text="Login as Anonymous"
+        android:textColor="#010435"
+        android:textAllCaps="false"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Anonymous"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/registerlink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Update Anonymous Details" />
+</RelativeLayout>

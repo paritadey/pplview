@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.example.parita.pplview.AnonymousUserDetails">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/RelativeLayout01">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="56dp"
+            app:srcCompat="@drawable/anonymous" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:text="Profile View "
+            android:textSize="16dp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout02"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:padding="35dp"
+        android:layout_marginTop="151dp">
+
+
+        <TextView
+            android:id="@+id/tvaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvphone"
+            android:layout_alignStart="@+id/tvphone"
+            android:layout_below="@+id/tvphone"
+            android:layout_marginTop="29dp"
+            android:text="Address"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/useraddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tvdob"
+            android:layout_toEndOf="@+id/tvdeviceid"
+            android:layout_toRightOf="@+id/tvdeviceid"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvdob"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvaddress"
+            android:layout_alignStart="@+id/tvaddress"
+            android:layout_below="@+id/tvaddress"
+            android:layout_marginTop="31dp"
+            android:text="Date of birth"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/userbirth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvdob"
+            android:layout_alignBottom="@+id/tvdob"
+            android:layout_toEndOf="@+id/tvdob"
+            android:layout_toRightOf="@+id/tvdob"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvgender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvdob"
+            android:layout_alignStart="@+id/tvdob"
+            android:layout_below="@+id/tvdob"
+            android:layout_marginTop="38dp"
+            android:text="Gender"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/usergender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvgender"
+            android:layout_alignBottom="@+id/tvgender"
+            android:layout_alignLeft="@+id/useraddress"
+            android:layout_alignStart="@+id/useraddress"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvdetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvgender"
+            android:layout_alignStart="@+id/tvgender"
+            android:layout_below="@+id/tvgender"
+            android:layout_marginTop="29dp"
+            android:text="Details"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/userdetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvdetails"
+            android:layout_alignBottom="@+id/tvdetails"
+            android:layout_alignLeft="@+id/usergender"
+            android:layout_alignStart="@+id/usergender"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvdeviceid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="17dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:text="Deviceid"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/deviceid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tvdeviceid"
+            android:layout_marginLeft="33dp"
+            android:layout_marginStart="33dp"
+            android:layout_toEndOf="@+id/tvdeviceid"
+            android:layout_toRightOf="@+id/tvdeviceid"
+            android:visibility="invisible" />
+    </RelativeLayout>
+</RelativeLayout>

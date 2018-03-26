@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.parita.pplview.Annonymous">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/textViewdeviceid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Device ID" />
+
+    <TextView
+        android:id="@+id/deviceid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textViewdeviceid"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@+id/textViewdeviceid"
+        android:layout_toRightOf="@+id/textViewdeviceid"/>
+
+    <ImageView
+        android:id="@+id/anonymous_logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/anonymous" />
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:text="Enter your Birthday"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:id="@+id/date"
+            android:paddingLeft="20dp"
+            android:layout_below="@id/anonymous_logo"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:id="@+id/dateset"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/gender"
+            android:layout_toEndOf="@+id/anonymous_logo"
+            android:layout_toRightOf="@+id/anonymous_logo"
+            android:textColor="#010435"
+            android:textSize="18dp" />
+        <Spinner
+            android:id="@+id/gender"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="10dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date"
+            android:layout_marginBottom="11dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginRight="14dp" />
+        <EditText
+            android:id="@+id/place"
+            android:layout_below="@+id/gender"
+            android:layout_centerHorizontal="true"
+            android:layout_alignLeft="@id/gender"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:maxLength="50"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edit_text"
+            android:hint="Enter User Address"
+            android:paddingLeft="20dp"
+            android:singleLine="true"
+            android:textColorHint="#010435"
+            android:textColor="#010435"
+            android:drawablePadding="5dp"/>
+        <Spinner
+            android:id="@+id/education_details"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="10dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/place"
+            android:layout_marginBottom="11dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginRight="14dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/education_details"
+            android:layout_alignRight="@+id/education_details"
+            android:layout_below="@+id/education_details"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/rounded_edit_text"
+            android:drawablePadding="5dp"
+            android:hint="Enter Password"
+            android:password="true"
+            android:maxLength="50"
+            android:paddingLeft="20dp"
+            android:singleLine="true"
+            android:textColor="#010435"
+            android:textColorHint="#010435" />
+        <EditText
+            android:id="@+id/retypepassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/education_details"
+            android:layout_alignRight="@+id/education_details"
+            android:layout_below="@+id/password"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/rounded_edit_text"
+            android:drawablePadding="5dp"
+            android:hint="Re-enter Password"
+            android:maxLength="50"
+            android:password="true"
+            android:paddingLeft="20dp"
+            android:singleLine="true"
+            android:textColor="#010435"
+            android:textColorHint="#010435" />
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/retypepassword"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_button"
+            android:gravity="center_horizontal"
+            android:text="Update My Details"
+            android:textColor="#010435"
+            android:textAllCaps="false"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/register"
+            android:text="Login as Anonymous"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:textColor="#010435"
+            android:id="@+id/loginlink" />
+    </RelativeLayout>
+ </ScrollView>
