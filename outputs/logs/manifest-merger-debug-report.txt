@@ -1,0 +1,496 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:2:1-127:12
+INJECTED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:2:1-127:12
+INJECTED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:2:1-127:12
+INJECTED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:2:1-127:12
+MERGED from [com.android.volley:volley:1.1.0-rc1] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\volley-1.1.0-rc1.aar\23ebb29db7c5867aa08319bb29d99303\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\bd25169a2c5a0e6a6947b4590e89e282\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\87089ff95b0b707eec430b00b19e9d74\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\b2cbb87f368e79b8bceea6d389f08b0d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\66f36341e3b2175dec1e2aac214d02b2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\e9e965e5eb6c2821516275a9e808ccae\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\ffff5e310f64a2ee8b33ea034a8b1924\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ecf51132de1255503ddb53ba1460db38\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\008d1fe50ba1713b1d92b48cd2151170\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\22cb7f898aa63c9e4e87d737bc62c531\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\9d4e833694a7ff1724d9ba01f84374b1\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\c73fed186f5f4a305f88eb07d0677de8\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\3eaa0a355a57ea5cb187a9e7c0276a31\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d84f7518d2562e981080c5870d309c32\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e3925ac15815d3fbd4ff4f01fbade4b6\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\73037a99a1ae5cf20eadd17f73f83a4f\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\3b2f32764eeef6a7177e2f3631f49950\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\0693fb954476b9214b904ec2199e7662\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\936817b75b0de94cfe2118f78fbe7df0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\138e2247208f3bab4dd9c6e1ce091dc0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\cfe570f4e8f05465e9c6177f5a632907\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\d5d4446e3c633fd97f767039c09705e8\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\6e486fa1aeecc7a346d700fa702e5b0e\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ba432cb671806219134585b5595b510b\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\e4d29399037f3e2539ffb09d88909276\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\fb0bb1e2622ec131d8f8b249ed7618f9\AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b7ae514fc190c4e900c5d134d2907afa\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:2:1-127:12
+INJECTED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:2:1-127:12
+INJECTED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:2:1-127:12
+	package
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:2:1-127:12
+		INJECTED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:2:1-127:12
+		INJECTED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\e9e965e5eb6c2821516275a9e808ccae\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\e9e965e5eb6c2821516275a9e808ccae\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\e9e965e5eb6c2821516275a9e808ccae\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\e9e965e5eb6c2821516275a9e808ccae\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:9:22-72
+application
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:11:5-125:19
+MERGED from [com.android.volley:volley:1.1.0-rc1] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\volley-1.1.0-rc1.aar\23ebb29db7c5867aa08319bb29d99303\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0-rc1] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\volley-1.1.0-rc1.aar\23ebb29db7c5867aa08319bb29d99303\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\bd25169a2c5a0e6a6947b4590e89e282\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\bd25169a2c5a0e6a6947b4590e89e282\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\b2cbb87f368e79b8bceea6d389f08b0d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\b2cbb87f368e79b8bceea6d389f08b0d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\66f36341e3b2175dec1e2aac214d02b2\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\66f36341e3b2175dec1e2aac214d02b2\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\e9e965e5eb6c2821516275a9e808ccae\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\e9e965e5eb6c2821516275a9e808ccae\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\ffff5e310f64a2ee8b33ea034a8b1924\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\ffff5e310f64a2ee8b33ea034a8b1924\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ecf51132de1255503ddb53ba1460db38\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ecf51132de1255503ddb53ba1460db38\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\008d1fe50ba1713b1d92b48cd2151170\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\008d1fe50ba1713b1d92b48cd2151170\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\22cb7f898aa63c9e4e87d737bc62c531\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\22cb7f898aa63c9e4e87d737bc62c531\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\9d4e833694a7ff1724d9ba01f84374b1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\9d4e833694a7ff1724d9ba01f84374b1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\c73fed186f5f4a305f88eb07d0677de8\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\c73fed186f5f4a305f88eb07d0677de8\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\3eaa0a355a57ea5cb187a9e7c0276a31\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\3eaa0a355a57ea5cb187a9e7c0276a31\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d84f7518d2562e981080c5870d309c32\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d84f7518d2562e981080c5870d309c32\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e3925ac15815d3fbd4ff4f01fbade4b6\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e3925ac15815d3fbd4ff4f01fbade4b6\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\73037a99a1ae5cf20eadd17f73f83a4f\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\73037a99a1ae5cf20eadd17f73f83a4f\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\3b2f32764eeef6a7177e2f3631f49950\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\3b2f32764eeef6a7177e2f3631f49950\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\0693fb954476b9214b904ec2199e7662\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\0693fb954476b9214b904ec2199e7662\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\936817b75b0de94cfe2118f78fbe7df0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\936817b75b0de94cfe2118f78fbe7df0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\138e2247208f3bab4dd9c6e1ce091dc0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\138e2247208f3bab4dd9c6e1ce091dc0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\cfe570f4e8f05465e9c6177f5a632907\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\cfe570f4e8f05465e9c6177f5a632907\AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\d5d4446e3c633fd97f767039c09705e8\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\d5d4446e3c633fd97f767039c09705e8\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\6e486fa1aeecc7a346d700fa702e5b0e\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\6e486fa1aeecc7a346d700fa702e5b0e\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ba432cb671806219134585b5595b510b\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ba432cb671806219134585b5595b510b\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\e4d29399037f3e2539ffb09d88909276\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\e4d29399037f3e2539ffb09d88909276\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\fb0bb1e2622ec131d8f8b249ed7618f9\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\fb0bb1e2622ec131d8f8b249ed7618f9\AndroidManifest.xml:5:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b7ae514fc190c4e900c5d134d2907afa\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b7ae514fc190c4e900c5d134d2907afa\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:14:9-41
+	android:roundIcon
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:15:9-46
+	android:icon
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:13:9-41
+	android:allowBackup
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:17:9-40
+activity#com.example.parita.pplview.MainActivity
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:18:9-26:20
+	android:screenOrientation
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:20:13-49
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:19:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:24:27-74
+activity#com.example.parita.pplview.Login
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:27:9-30:52
+	android:screenOrientation
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:30:13-49
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:29:13-34
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:28:13-34
+activity#com.example.parita.pplview.HomeScreen
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:31:9-35:59
+	android:screenOrientation
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:34:13-49
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:33:13-40
+	android:theme
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:35:13-56
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:32:13-39
+activity#com.example.parita.pplview.About
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:36:9-39:52
+	android:screenOrientation
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:39:13-49
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:37:13-34
+activity#com.example.parita.pplview.Account_info
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:40:9-43:52
+	android:screenOrientation
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:43:13-49
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:42:13-39
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:41:13-41
+activity#com.example.parita.pplview.International
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:44:9-47:52
+	android:screenOrientation
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:47:13-49
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:46:13-39
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:45:13-42
+activity#com.example.parita.pplview.National
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:48:9-51:52
+	android:screenOrientation
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:51:13-49
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:50:13-41
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:49:13-37
+activity#com.example.parita.pplview.Profile
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:52:9-55:52
+	android:screenOrientation
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:55:13-49
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:54:13-39
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:53:13-36
+activity#com.example.parita.pplview.Registration
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:56:9-59:52
+	android:screenOrientation
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:59:13-49
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:58:13-43
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:57:13-41
+activity#com.example.parita.pplview.Annonymous
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:60:9-63:52
+	android:screenOrientation
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:63:13-49
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:62:13-43
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:61:13-39
+activity#com.example.parita.pplview.ForgotPassword
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:64:9-67:52
+	android:screenOrientation
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:67:13-49
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:66:13-44
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:65:13-43
+activity#com.example.parita.pplview.AnonymousLogin
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:68:9-71:52
+	android:screenOrientation
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:71:13-49
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:70:13-44
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:69:13-43
+activity#com.example.parita.pplview.AnonymousAccountinfo
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:72:9-74:52
+	android:screenOrientation
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:74:13-49
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:73:13-49
+activity#com.example.parita.pplview.Settings
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:75:9-78:52
+	android:screenOrientation
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:78:13-49
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:77:13-49
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:76:13-37
+activity#com.example.parita.pplview.EditPassword
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:79:9-82:52
+	android:screenOrientation
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:82:13-49
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:81:13-42
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:80:13-41
+activity#com.example.parita.pplview.EditProfile
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:83:9-86:52
+	android:screenOrientation
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:86:13-49
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:85:13-41
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:84:13-40
+activity#com.example.parita.pplview.DetailAboutPost
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:87:9-90:52
+	android:screenOrientation
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:90:13-49
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:89:13-41
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:88:13-44
+activity#com.example.parita.pplview.ShowAllComments
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:91:9-94:52
+	android:screenOrientation
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:94:13-49
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:93:13-37
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:92:13-44
+activity#com.example.parita.pplview.UserDetails
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:95:9-98:52
+	android:screenOrientation
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:98:13-49
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:97:13-35
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:96:13-40
+activity#com.example.parita.pplview.ActivityLog
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:99:9-102:52
+	android:screenOrientation
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:102:13-49
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:101:13-40
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:100:13-40
+activity#com.example.parita.pplview.Bookmark
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:103:9-106:52
+	android:screenOrientation
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:106:13-49
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:105:13-40
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:104:13-37
+activity#com.example.parita.pplview.MyPostHistory
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:107:9-108:43
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:108:13-41
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:107:19-48
+activity#com.example.parita.pplview.AnonymousUserDetails
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:109:9-110:37
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:110:13-35
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:109:19-55
+activity#com.example.parita.pplview.AnonymousActivityLog
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:111:9-112:42
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:112:13-40
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:111:19-55
+activity#com.example.parita.pplview.AnonymousPost
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:113:9-114:43
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:114:13-41
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:113:19-48
+activity#com.example.parita.pplview.AnonymousBookmark
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:115:9-116:39
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:116:13-37
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:115:19-52
+activity#com.example.parita.pplview.AnonymousEditProfile
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:117:9-118:43
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:118:13-41
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:117:19-55
+activity#com.example.parita.pplview.AnonymousSetting
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:119:9-120:39
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:120:13-37
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:119:19-51
+activity#com.example.parita.pplview.AnonymousEditPassword
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:121:9-122:44
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:122:13-42
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:121:19-56
+activity#com.example.parita.pplview.Analytics
+ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:123:9-124:57
+	android:label
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:124:13-45
+	android:name
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml:123:19-44
+uses-sdk
+INJECTED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml
+MERGED from [com.android.volley:volley:1.1.0-rc1] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\volley-1.1.0-rc1.aar\23ebb29db7c5867aa08319bb29d99303\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0-rc1] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\volley-1.1.0-rc1.aar\23ebb29db7c5867aa08319bb29d99303\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:design:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\bd25169a2c5a0e6a6947b4590e89e282\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\bd25169a2c5a0e6a6947b4590e89e282\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\87089ff95b0b707eec430b00b19e9d74\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\87089ff95b0b707eec430b00b19e9d74\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\b2cbb87f368e79b8bceea6d389f08b0d\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\b2cbb87f368e79b8bceea6d389f08b0d\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\66f36341e3b2175dec1e2aac214d02b2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\66f36341e3b2175dec1e2aac214d02b2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\e9e965e5eb6c2821516275a9e808ccae\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\e9e965e5eb6c2821516275a9e808ccae\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\ffff5e310f64a2ee8b33ea034a8b1924\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\ffff5e310f64a2ee8b33ea034a8b1924\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ecf51132de1255503ddb53ba1460db38\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ecf51132de1255503ddb53ba1460db38\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\008d1fe50ba1713b1d92b48cd2151170\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\008d1fe50ba1713b1d92b48cd2151170\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\22cb7f898aa63c9e4e87d737bc62c531\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\22cb7f898aa63c9e4e87d737bc62c531\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\9d4e833694a7ff1724d9ba01f84374b1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\9d4e833694a7ff1724d9ba01f84374b1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\c73fed186f5f4a305f88eb07d0677de8\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\c73fed186f5f4a305f88eb07d0677de8\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\3eaa0a355a57ea5cb187a9e7c0276a31\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\3eaa0a355a57ea5cb187a9e7c0276a31\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d84f7518d2562e981080c5870d309c32\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d84f7518d2562e981080c5870d309c32\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e3925ac15815d3fbd4ff4f01fbade4b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e3925ac15815d3fbd4ff4f01fbade4b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\73037a99a1ae5cf20eadd17f73f83a4f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\73037a99a1ae5cf20eadd17f73f83a4f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\3b2f32764eeef6a7177e2f3631f49950\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\3b2f32764eeef6a7177e2f3631f49950\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\0693fb954476b9214b904ec2199e7662\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\0693fb954476b9214b904ec2199e7662\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\936817b75b0de94cfe2118f78fbe7df0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\936817b75b0de94cfe2118f78fbe7df0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\138e2247208f3bab4dd9c6e1ce091dc0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\138e2247208f3bab4dd9c6e1ce091dc0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\cfe570f4e8f05465e9c6177f5a632907\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\cfe570f4e8f05465e9c6177f5a632907\AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\d5d4446e3c633fd97f767039c09705e8\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\d5d4446e3c633fd97f767039c09705e8\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\6e486fa1aeecc7a346d700fa702e5b0e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\6e486fa1aeecc7a346d700fa702e5b0e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ba432cb671806219134585b5595b510b\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ba432cb671806219134585b5595b510b\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\e4d29399037f3e2539ffb09d88909276\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\e4d29399037f3e2539ffb09d88909276\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\fb0bb1e2622ec131d8f8b249ed7618f9\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\fb0bb1e2622ec131d8f8b249ed7618f9\AndroidManifest.xml:4:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b7ae514fc190c4e900c5d134d2907afa\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b7ae514fc190c4e900c5d134d2907afa\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\bd25169a2c5a0e6a6947b4590e89e282\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\parita\AndroidStudioProjects\PplView\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\bd25169a2c5a0e6a6947b4590e89e282\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\b2cbb87f368e79b8bceea6d389f08b0d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\b2cbb87f368e79b8bceea6d389f08b0d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ecf51132de1255503ddb53ba1460db38\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ecf51132de1255503ddb53ba1460db38\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\008d1fe50ba1713b1d92b48cd2151170\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\008d1fe50ba1713b1d92b48cd2151170\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\22cb7f898aa63c9e4e87d737bc62c531\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\22cb7f898aa63c9e4e87d737bc62c531\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d84f7518d2562e981080c5870d309c32\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d84f7518d2562e981080c5870d309c32\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e3925ac15815d3fbd4ff4f01fbade4b6\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e3925ac15815d3fbd4ff4f01fbade4b6\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\73037a99a1ae5cf20eadd17f73f83a4f\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\73037a99a1ae5cf20eadd17f73f83a4f\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\3b2f32764eeef6a7177e2f3631f49950\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\3b2f32764eeef6a7177e2f3631f49950\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\0693fb954476b9214b904ec2199e7662\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\0693fb954476b9214b904ec2199e7662\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\936817b75b0de94cfe2118f78fbe7df0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\936817b75b0de94cfe2118f78fbe7df0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\138e2247208f3bab4dd9c6e1ce091dc0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\138e2247208f3bab4dd9c6e1ce091dc0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\cfe570f4e8f05465e9c6177f5a632907\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\cfe570f4e8f05465e9c6177f5a632907\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\bd25169a2c5a0e6a6947b4590e89e282\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\bd25169a2c5a0e6a6947b4590e89e282\AndroidManifest.xml:27:13-51
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\e9e965e5eb6c2821516275a9e808ccae\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\e9e965e5eb6c2821516275a9e808ccae\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\e9e965e5eb6c2821516275a9e808ccae\AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\9d4e833694a7ff1724d9ba01f84374b1\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\9d4e833694a7ff1724d9ba01f84374b1\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\9d4e833694a7ff1724d9ba01f84374b1\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\9d4e833694a7ff1724d9ba01f84374b1\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\3eaa0a355a57ea5cb187a9e7c0276a31\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\3eaa0a355a57ea5cb187a9e7c0276a31\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\3eaa0a355a57ea5cb187a9e7c0276a31\AndroidManifest.xml:24:13-58
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b7ae514fc190c4e900c5d134d2907afa\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b7ae514fc190c4e900c5d134d2907afa\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\parita\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b7ae514fc190c4e900c5d134d2907afa\AndroidManifest.xml:26:13-58
